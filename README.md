@@ -1,23 +1,23 @@
-## Introduction
+## Введение 
 
-The Manjaro Linux Beginner's User Guide typeset in LaTeX (using LyX).
+Руководство для начинающего пользователя Manjaro Linux набрано в LaTeX (с использованием LyX).
 
-The style in use is tutfe-book (http://wiki.lyx.org/Layouts/Tufte-book). This provides a very professional layout with minimal fuss.
+Используемый стиль - tutfe-book (http://wiki.lyx.org/Layouts/Tutfe-book). Он предоставляет возможность профессионально верстать с минимальным напрягом.
 
-## Installation
+## Установка
 
-To enable the tutfe-book layout within LyX on Manjaro you will need to install the following packages:
+Для того, чтобы воспользоваться возможностью верстки стилем tutfe-book в LyX, потребуется установить следующие пакеты для Manjaro:
 
     sudo pacman -S lyx texlive-pictures texlive-latexextra
 
-Installing LyX should pick up the base dependencies; tutfe-book requires the extra libraries. Remember to reconfigure LyX after installing the new libraries!
+Установка LyX произойдет автоматически по зависимостям; tutfe-book требует дополнительные библиотеки. Не забудьте переконфигурировать LyX после установки новых библиотек!
 
-## Cover art
+## Обложка
 
-Current cover art is created in Inkscape. You will also need comfortaa from AUR for the Manjaro logo text:
+Текущая версия обложки создана в Inkscape. Потребуется установить шрифты comfortaa из AUR для отображения текста логотипа:
 
     yaourt -S ttf-comfortaa
 
-LyX will neatly insert/append PDF files; to make things easy cover art should therefore be exported as a PDF document.
+LyX будет акуратно добавлять/обновлять PDF-файлы; для более простых манипуляций с обложкой, лучше экспортировать ее как PDF.
 
 ![Manjaro User Guide cover](https://raw.githubusercontent.com/manjaro/manjaro-user-guide/master/cover.png)
