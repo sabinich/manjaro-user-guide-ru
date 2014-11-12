@@ -266,7 +266,7 @@ http://git.manjaro.org/documentation/manjaro-user-guide/
 \end_layout
 
 \begin_layout Section*
-The Manjaro Development Team
+Команда разработчиков Manjaro
 \begin_inset Index idx
 status open
 
@@ -288,8 +288,8 @@ Philip
 \begin_inset space ~
 \end_inset
 
-Müller Project Leader, Project Management and Coordination, Mirrors Manager,
- Packager, Developer, Web Developer
+Müller Лидер проекта, Управление проектом, Управление зеркалами, Разработчик,
+ Веб-разработчик, Packager
 \end_layout
 
 \begin_layout Description
@@ -297,7 +297,7 @@ Roland
 \begin_inset space ~
 \end_inset
 
-Singer Founder, Designer, Developer, Web Developer, Packager
+Singer Владелец, Дизайнер, Разработчик, Веб-разработчик, Packager
 \end_layout
 
 \begin_layout Description
@@ -305,7 +305,7 @@ Guillaume
 \begin_inset space ~
 \end_inset
 
-Benoit Server Manager, Developer, Packager, Moderation
+Benoit Администратор сервера, Разработчик, Модератор, Packager
 \end_layout
 
 \begin_layout Description
@@ -317,7 +317,7 @@ A.
 \begin_inset space ~
 \end_inset
 
-Arnt Developer, Moderation
+Arnt Разработчик, модератор
 \end_layout
 
 \begin_layout Description
@@ -325,7 +325,7 @@ Mateusz
 \begin_inset space ~
 \end_inset
 
-Mikolajczyk Developer
+Mikolajczyk Разработчик
 \end_layout
 
 \begin_layout Description
@@ -342,7 +342,7 @@ Wlad
 \begin_inset space ~
 \end_inset
 
-Meixner Web Developer, Web Consultant
+Meixner Веб-разработчик, Веб-консультант
 \end_layout
 
 \begin_layout Description
@@ -350,7 +350,7 @@ Ramon
 \begin_inset space ~
 \end_inset
 
-Buldó Developer
+Buldó Разработчик
 \end_layout
 
 \begin_layout Description
@@ -358,7 +358,7 @@ Joshua
 \begin_inset space ~
 \end_inset
 
-Strot Developer, Graphics Developer
+Strot Разработчик, Графический дизайнер
 \end_layout
 
 \begin_layout Subsection*
@@ -399,7 +399,7 @@ Wiscombe
 \end_layout
 
 \begin_layout Subsection*
-Forum, Community and Support
+Форум, Сообщество и поддержка
 \end_layout
 
 \begin_layout Description
@@ -411,11 +411,11 @@ de
 \begin_inset space ~
 \end_inset
 
-Kroon Community, IRC Support
+Kroon Сообщество, IRC-поддержка
 \end_layout
 
 \begin_layout Subsection*
-Documentation
+Документация
 \end_layout
 
 \begin_layout Description
@@ -423,15 +423,15 @@ Jonathon
 \begin_inset space ~
 \end_inset
 
-Fernyhough Editor of the User Guide 0.8.9-0.8.10
+Fernyhough Редактор руководства для пользователя 0.8.9-0.8.10
 \end_layout
 
 \begin_layout Description
-Handy Global Moderator, Wiki Contributor, Community Support
+Handy Модератор, Редактор вики, поддержка сообщества
 \end_layout
 
 \begin_layout Description
-Sabras Wiki
+Sabras Редактор вики
 \end_layout
 
 \begin_layout Subsection*
