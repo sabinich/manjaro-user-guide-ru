@@ -102,7 +102,7 @@ fixltx2e
 \end_layout
 
 \begin_layout Title
-User Guide
+Руководство пользователя
 \end_layout
 
 \begin_layout Author
@@ -554,7 +554,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Chapter
-Introduction
+Введение
 \begin_inset Index idx
 status open
 
@@ -568,7 +568,7 @@ Introduction
 \end_layout
 
 \begin_layout Section
-About Manjaro
+О Manjaro
 \end_layout
 
 \begin_layout Standard
@@ -631,7 +631,7 @@ Pre-installed access to the latest games
 \end_layout
 
 \begin_layout Section
-Features
+Возможности
 \begin_inset Index idx
 status open
 
@@ -727,15 +727,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Welcome to Manjaro!
+Добро пожаловать в Manjaro!
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -749,7 +745,7 @@ Getting Manjaro
 \end_layout
 
 \begin_layout Chapter
-Downloading
+Скачивание
 \begin_inset Index idx
 status open
 
@@ -763,7 +759,7 @@ Downloading
 \end_layout
 
 \begin_layout Section
-Manjaro editions
+Редакции Manjaro
 \begin_inset Index idx
 status open
 
@@ -1044,7 +1040,7 @@ Net edition
 \end_layout
 
 \begin_layout Section
-Manjaro community editions
+Редакции Manjaro от сообщества
 \end_layout
 
 \begin_layout Standard
@@ -1070,7 +1066,7 @@ There are currently four main community editions: Cinnamon, GNOME, MATE,
 \end_layout
 
 \begin_layout Section
-Downloading a disc image
+Скачивание образа диска
 \end_layout
 
 \begin_layout Standard
@@ -1209,7 +1205,7 @@ http://sourceforge.net/projects/manjarodev/files/testbuild/
 \end_layout
 
 \begin_layout Chapter
-Checking a downloaded disc image for errors
+Проверка скачанного образа диска на ошибки
 \begin_inset Index idx
 status open
 
@@ -1313,7 +1309,7 @@ b91b8a8d3133342f4cfdb1ba09c28ec20c8492e1 manjaro-openbox-0.8.8-x86_64.iso
 \end_layout
 
 \begin_layout Section
-MD5 and SHA-1
+MD5 и SHA-1
 \end_layout
 
 \begin_layout Standard
@@ -1403,11 +1399,11 @@ Test builds have a slightly different arrangement.
 \end_layout
 
 \begin_layout Section
-Checking in Linux
+Проверка в Linux
 \end_layout
 
 \begin_layout Subsection
-Automatic verification
+Автоматическая верификация
 \end_layout
 
 \begin_layout Standard
@@ -1534,7 +1530,7 @@ sha1sum: WARNING: 7 listed files could not be read
 \end_layout
 
 \begin_layout Subsection
-Manual verification
+Верификация вручную
 \end_layout
 
 \begin_layout Standard
@@ -1577,10 +1573,6 @@ Verifying the checksum displayed in gedit against the output of sha1sum
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1615,7 +1607,7 @@ This command generates a hash code for the 64-bit Manjaro Xfce 0.8.10 disc
 \end_layout
 
 \begin_layout Section
-Checking in Microsoft Windows
+Проверка в Microsoft Windows
 \end_layout
 
 \begin_layout Standard
@@ -1748,7 +1740,7 @@ Verify
 \end_layout
 
 \begin_layout Chapter
-Writing a disc image
+Запись образа диска
 \begin_inset Index idx
 status open
 
@@ -2196,10 +2188,6 @@ Manjaro Edition disc image file sizes
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2233,7 +2221,7 @@ this presents an even more attractive method than the traditional burning
 \end_layout
 
 \begin_layout Section
-Burning to a CD/DVD
+Прожиг CD/DVD
 \begin_inset Index idx
 status open
 
@@ -2243,7 +2231,7 @@ Burning to a CD/DVD
 
 \end_inset
 
- in Linux
+ в Linux
 \end_layout
 
 \begin_layout Standard
@@ -2281,7 +2269,7 @@ Xfce environments tend to include XFBurn.
 \end_layout
 
 \begin_layout Subsection
-Burning using Brasero
+Прожиг используя Brasero
 \end_layout
 
 \begin_layout Enumerate
@@ -2393,7 +2381,7 @@ Burn
 \end_layout
 
 \begin_layout Section
-Burning to a CD/DVD in Microsoft Windows
+Прожиг CD/DVD в Microsoft Windows
 \end_layout
 
 \begin_layout Standard
@@ -2405,7 +2393,7 @@ Newer versions of Microsoft Windows (Windows 7 and later) include a disc
 \end_layout
 
 \begin_layout Subsection
-Burning using Windows Disc Image Burner
+Прожиг с помощью Windows Disc Image Burner
 \end_layout
 
 \begin_layout Standard
@@ -2497,7 +2485,7 @@ Windows Disc Image Burner in Microsoft Windows 7
 \end_layout
 
 \begin_layout Subsection
-Burning using a third-party application
+Прожиг с помощью сторонних приложений
 \end_layout
 
 \begin_layout Standard
@@ -2778,7 +2766,7 @@ ons.
 \end_layout
 
 \begin_layout Section
-Writing to a USB flash drive
+Запись USB флэш-накопителя
 \begin_inset Index idx
 status open
 
@@ -2788,7 +2776,7 @@ USB flash drive
 
 \end_inset
 
- in Linux
+ в Linux
 \end_layout
 
 \begin_layout Standard
@@ -2885,7 +2873,7 @@ Once it has finished, reboot your system, making sure to select the USB
 \end_layout
 
 \begin_layout Section
-Writing to a USB flash drive in Microsoft Windows
+Запись USB флэш-накопителя Microsoft Windows
 \end_layout
 
 \begin_layout Standard
