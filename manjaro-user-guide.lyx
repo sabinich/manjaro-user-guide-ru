@@ -776,7 +776,7 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-There are four editions of Manjaro available for download.
+Существует четыре редакции Manjaro, которые доступны для скачивания.
 \begin_inset Flex Marginnote
 status collapsed
 
@@ -797,10 +797,10 @@ http://manjaro.org/get-manjaro/
 
 \end_inset
 
- Three editions of Manjaro come complete with a pre-installed desktop environmen
-t and a selection of popular software applications.
- Any of these would be a great choice for anyone who wants to try out Manjaro
- on a Live-CD 
+ Три из них поставляются с полный набором предустановленного ПО и окружением
+ рабочего стола.
+ Любой из них может оказаться более предпочтительным и их можно попробовать
+ без установки, загрузившись с Live-CD 
 \begin_inset Flex Marginnote
 status collapsed
 
@@ -814,16 +814,16 @@ When you purchase retail software it generally comes on a disc, whether
 
 \end_inset
 
-without having to install it first.
- If you have the time it's worth taking each for a test run to see which
- you like best!
+.
+ Если у вас есть свободная минутка, обязательно попробуйте каждый из доступных
+ редакций и выберите наиболее понравившийся!
 \end_layout
 
 \begin_layout Description
-Xfce The Xfce desktop environment is designed to be lightweight while retaining
- a familiar desktop interface.
- If you're not sure which edition to choose, this one is a good bet.
- Xfce edition disc image files start with 
+Xfce Окружение рабочего стола Xfce разработана с целью предоставить пользователю
+ легковесную среду в привычном интерфейсе.
+ Если вы не уверены, какую из редакций выбрать, смело берите эту.
+ Название файла образа диска с Xfce начинается с 
 \series bold
 manjaro-xfce
 \series default
@@ -831,12 +831,12 @@ manjaro-xfce
 \end_layout
 
 \begin_layout Description
-Openbox Openbox is a small, light desktop environment, and this version
- is designed to use as few resources as possible while still providing a
- full desktop experience.
- If you like a minimal environment, or need to squeeze every last drop of
- performance from your system, this version is well worth a look.
- Openbox edition disc image files start with 
+Openbox Openbox это небольшое и нересурсоемкое окружение рабочего стола
+ и разработано для использования на слабых, устаревших компьютерах без ущерба
+ функциональности рабочего стола.
+ Если вам нравится минималистичность или у вас есть морально устаревший
+ компьютер, в который хотелось бы вдохнуть жизнь, то эта редакция для вас.
+ Файл образа диска с Openbox начинается с 
 \series bold
 manjaro
 \series default
@@ -848,12 +848,10 @@ openbox
 \end_layout
 
 \begin_layout Description
-KDE This version includes the K Desktop Environment.
- It offers a highly integrated environment with plenty of functionality
- and options.
- It is also highly customisable and offers a slightly different feel than
- the other editions.
- KDE edition disc image files start with 
+KDE Эта версия содержит KDE и содержит полностью интегрированное окружение
+ с ошеломляющей функциональностью и параметрами.
+ Помимо этого система предоставляет большое количество настроек и параметров.
+ Название образа диска с KDE начинается с 
 \series bold
 manjaro
 \series default
@@ -865,11 +863,11 @@ kde
 \end_layout
 
 \begin_layout Description
-Net This edition of Manjaro provides only a base installation, stripped
- of all but the most basic pre-installed software.
- Starting from the command line, this is suitable for more experienced users
- who may want to build their own Manjaro system from the ground up.
- A disc image for a NET edition will always begin with 
+Net Эта редакция Manjaro предоставляет тоько базовый функционал системы
+ с урезанным набором программного обеспечения.
+ Рассчитан на продвинутых пользователей, которые могут и хотят создать собственн
+ую сборку системы из командной строки.
+ Название файла образа диска этой редакции всегда начинается с 
 \series bold
 manjaro-net
 \series default
@@ -877,21 +875,19 @@ manjaro-net
 \end_layout
 
 \begin_layout Standard
-Each edition of Manjaro is available as 32- and 64-bit versions.
- Disc images available for 32-bit systems will end in
+Каждая из редакций Manjaro доступна в 32-х и 64-битных версиях.
+ Названия файлов с образами дисков для 32-битных систем оканчиваются на
 \series bold
  i686.iso
 \series default
- and images for 64-bit systems will end in 
+, а для 64-бит - на 
 \series bold
 x86_64.iso
 \series default
 .
- A 64-bit operating system won't run on a 32-bit system, and although a
- 32-bit operating system will run on a 64-bit system it won't be able to
- make full use of its resources.
- Try to make sure that you download the appropriate disc image for your
- system!
+ 64-битная операционная система не заработает на 32-битной системе, а вот
+ 32-битная на 64-битной - заработает, но будет серьезно ограничена в ресурсах.
+ Убедитесь, что качаете образ диска для своей системы!
 \end_layout
 
 \begin_layout Standard
