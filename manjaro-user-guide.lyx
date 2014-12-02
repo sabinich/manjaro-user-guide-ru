@@ -1027,25 +1027,27 @@ Net edition
 \end_layout
 
 \begin_layout Standard
-In addition to the four main Manjaro editions, there are a number of editions
- that have certain software or desktop environments preinstalled.
- This user manual assumes you are using the Xfce version, and all screenshots
- will be from this.
- However, the installation process and other software works in exactly the
- same way!
+В дополнение к четырем основным редакциям Manjaro, существует еще некоторое
+ количество других, которые отличаются предустановленным ПО или окружением
+ рабочего стола.
+ Данное руководство рассматривает вариант использования официальной редакции
+ Manjaro с Xfce и все скриншоты будут отображать это окружение рабочего
+ стола.
+ Кстати, процесс установки и работа другого программного обеспечения может
+ сильно отличаться!
 \end_layout
 
 \begin_layout Standard
-The edition names should give a clear indication of the desktop environment
- they install.
- Unless you have a strong preference, we suggest you stick with the Xfce
- version.
- You can of course change later, or install other desktop environments too!
+Название редакций может содержать в себе указание на окружение рабочего
+ стола, которое будет использоваться.
+ При всем этом мы рекомендуем начать с версии Xfce.
+ Позже всегда можно сменить редакцию или переустановить окружение рабочего
+ стола!
 \end_layout
 
 \begin_layout Standard
-There are currently four main community editions: Cinnamon, GNOME, MATE,
- and Netbook.
+Сейчас существует четыре редакции, поддерживаемые силами сообщества: Cinnamon,
+ GNOME, MATE, и Netbook.
 \end_layout
 
 \begin_layout Section
@@ -1053,14 +1055,14 @@ There are currently four main community editions: Cinnamon, GNOME, MATE,
 \end_layout
 
 \begin_layout Standard
-Every release of Manjaro is available for download, whether the current
- stable release, upcoming test builds, or previous versions for historical
- interest.
- When you visit the download page you will find a link to each of the four
- main editions in both 32- and 64-bit versions, as well as a checksum file
- for each.
- A checksum can be used to check the integrity of the disc image file you
- download to make sure it hasn't been corrupted during the download.
+Каждый выпуск Manjaro доступен для свободного скачивания: это и текущий
+ стабильный релиз, и сборки для тестирования и предыдущие версии для историческо
+го интереса.
+ Когда вы зайдете на страницу для скачивания, вы увидите ссылки на каждый
+ из четырех основных редакций как для 32-битных, так и 64-битных системы,
+ а так же файл с контрольной проверочной суммой.
+ Контрольная сумма может быть использована для проверки идентичности и на
+ предмет повреждения скачанного файла образа диска.
 \end_layout
 
 \begin_layout Description
@@ -1068,9 +1070,9 @@ Stable
 \begin_inset space ~
 \end_inset
 
-releases of Manjaro are intended to be used by the general public, so this
- will be the appropriate choice for the majority of users.
- The current Manjaro release can always be downloaded from the
+releases (Стабильные выпуски) Manjaro расчитаны на использование широким
+ кругом людей и рекомендуются к установке основной массе пользователей.
+ Текущую версию Manjaro всегда можно скачать со страницы официального сайта
 \series bold
  
 \series default
@@ -1082,11 +1084,7 @@ target "http://manjaro.org/get-manjaro/"
 
 \end_inset
 
-
-\series bold
- 
-\series default
-page.
+.
 \begin_inset Foot
 status open
 
@@ -1110,8 +1108,7 @@ http://manjaro.org/get-manjaro/
 \begin_inset Newline newline
 \end_inset
 
-Each of the stable releases, starting from 0.8.0, can also be downloaded from
- the 
+Каждый стабильный выпуск, начиная с 0.8.0 доступен на сайте 
 \begin_inset CommandInset href
 LatexCommand href
 name "Stable Release section of the Sourceforge website"
@@ -1147,16 +1144,16 @@ Test
 \begin_inset space ~
 \end_inset
 
-builds of Manjaro are intended to be used by developers and testers to identify
- any bugs or issues during the development process.
+builds (тестовые билды) Manjaro предназначены для разработчиков и тестеров
+ для поиска каких-либо ошибок и отладки в процессе разработки.
  
 \series bold
-These are not suitable for use as a main operating system by the general
- public.
+Они не предназначены для использования в качестве основной операционной
+ системы для широкой публики.
 
 \series default
- However, should you wish to try out a test build (preferably in a virtual
- machine), each current release can be downloaded from the from the
+ Но тем не менее, вы можете запустить тестовую сборку (лучше на виртуальной
+ машине), каждый выпуск доступен для скачивания с сайта
 \begin_inset CommandInset href
 LatexCommand href
 name " Test Build section of the Sourceforge website"
@@ -1423,12 +1420,12 @@ manjaro-0.8.10-sha1sum.txt  manjaro-xfce-0.8.10-x86_64.iso
 \end_layout
 
 \begin_layout Standard
-As you can see I have downloaded the 64-bit Xfce edition.
- Next, I run the 
+Как вы можете видеть, я скачал 64-битную Xfce-редакцию.
+ Далее, я запустил 
 \family typewriter
 sha1sum
 \family default
- program to check against the values in the checksum file:
+ для проверки на совпадение значений контрольных сумм, находящихся в файле:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1670,8 +1667,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Verifying the checksum in Microsoft Windows using Raymond's MD5 & SHA Checksum
- Utility.
+Проверка контрольной суммы в Microsoft Windows, используя Raymond's MD5
+ & SHA Checksum Utility.
 \end_layout
 
 \end_inset
@@ -1807,9 +1804,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-Edition
+Редакция
 \end_layout
 
 \end_inset
@@ -1820,7 +1815,7 @@ Edition
 \begin_layout Plain Layout
 
 \series bold
-Filename
+Имя файла
 \end_layout
 
 \end_inset
@@ -1831,7 +1826,7 @@ Filename
 \begin_layout Plain Layout
 
 \series bold
-Size
+Размер
 \end_layout
 
 \end_inset
@@ -1842,7 +1837,7 @@ Size
 \begin_layout Plain Layout
 
 \series bold
-Media
+Диск
 \end_layout
 
 \end_inset
@@ -2998,11 +2993,11 @@ If for some reason the writing process is unsuccessful the ImageWriter authors
 \end_layout
 
 \begin_layout Part
-Installing Manjaro
+Установка Manjaro
 \end_layout
 
 \begin_layout Chapter
-Booting the Live environment
+Загрузка системы без установки
 \begin_inset Index idx
 status open
 
@@ -3189,7 +3184,7 @@ Enter
 \end_layout
 
 \begin_layout Section
-Choosing the drivers
+Выбор драйверов
 \end_layout
 
 \begin_layout Standard
@@ -3363,7 +3358,7 @@ The welcome screen gives some links to common tasks, documentation (like
 \end_layout
 
 \begin_layout Chapter
-Using the graphical automatic installer
+Использование графического инсталлятора
 \begin_inset Index idx
 status open
 
@@ -4751,7 +4746,7 @@ OK
 \end_layout
 
 \begin_layout Chapter
-Installing on a UEFI
+Установка на систему с UEFI
 \begin_inset Index idx
 status open
 
@@ -4761,7 +4756,7 @@ UEFI
 
 \end_inset
 
- system
+
 \end_layout
 
 \begin_layout Standard
@@ -4800,7 +4795,7 @@ If you have a relatively new computer (e.g.
 \end_layout
 
 \begin_layout Section
-Booting in UEFI mode
+Загрузка в режиме UEFI
 \end_layout
 
 \begin_layout Standard
@@ -4873,7 +4868,7 @@ Once you have booted the system from the Live CD/USB you will be presented
 \end_layout
 
 \begin_layout Section
-Installing Manjaro as the only operating system
+Установка Manjaro как единственную ОС
 \end_layout
 
 \begin_layout Standard
@@ -5643,7 +5638,7 @@ Install now!
 \end_layout
 
 \begin_layout Subsection
-Update the GRUB bootloader, or, Where did Windows go?
+Обновление загрузчика GRUB, или, куда делся Windows?
 \end_layout
 
 \begin_layout Standard
@@ -5654,8 +5649,8 @@ Sometimes the bootloader GRUB2 doesn't detect an existing Microsoft Windows
 \end_layout
 
 \begin_layout Standard
-This is easy to solve.
- Run the command:
+Это исправить очень просто.
+ Запустите команду
 \end_layout
 
 \begin_layout LyX-Code
@@ -5665,8 +5660,8 @@ sudo update-grub
 \end_layout
 
 \begin_layout Standard
-in a terminal after booting into Manjaro and it will detect Windows and
- add an entry to the boot menu.
+в терминале после загрузки в Manjaro, после чего информация о Windows будет
+ найдена и возможность запуска ее добавлена в меню загрузки.
 \end_layout
 
 \begin_layout Chapter
@@ -6014,7 +6009,7 @@ The final step exits the installer.
 \end_layout
 
 \begin_layout Part
-Welcome to Manjaro
+Знакомство с Manjaro
 \end_layout
 
 \begin_layout Chapter
@@ -6048,7 +6043,7 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Section
-Congratulations on installing Manjaro Linux!
+Поздравляем с установкой Manjaro Linux!
 \end_layout
 
 \begin_layout Standard
@@ -6353,7 +6348,7 @@ http://linuxcommand.org/
 \end_layout
 
 \begin_layout Section
-File Manager
+Файловый менеджер
 \begin_inset Index idx
 status open
 
@@ -7249,7 +7244,7 @@ Settings
 \end_layout
 
 \begin_layout Section
-Adding a printer
+Подключение принтера
 \begin_inset Index idx
 status open
 
@@ -7906,7 +7901,7 @@ Install
 \end_layout
 
 \begin_layout Section
-Installing new software
+Установка нового ПО
 \begin_inset Index idx
 status open
 
@@ -8429,7 +8424,7 @@ sudo pacman -Syy
 \end_layout
 
 \begin_layout Subsection
-Updating software
+Обновление ПО
 \end_layout
 
 \begin_layout Standard
@@ -8498,7 +8493,7 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Subsection
-Searching for software
+Поиск ПО
 \end_layout
 
 \begin_layout Standard
@@ -8513,7 +8508,7 @@ sudo pacman -Ss leafpad
 \end_layout
 
 \begin_layout Subsection
-Installing software
+Установка ПО
 \end_layout
 
 \begin_layout Standard
@@ -8539,7 +8534,7 @@ sudo pacman -S leafpad
 \end_layout
 
 \begin_layout Subsection
-Removing software
+Удаление ПО
 \end_layout
 
 \begin_layout Standard
@@ -8650,7 +8645,7 @@ q
 \end_layout
 
 \begin_layout Section
-Updating the mirror
+Обновление списка доступных зеркал
 \begin_inset Index idx
 status open
 
@@ -8660,7 +8655,7 @@ mirror
 
 \end_inset
 
- list
+
 \end_layout
 
 \begin_layout Standard
@@ -8745,7 +8740,7 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Subsection
-Choosing mirrors
+Выбор приоритетного зеркала
 \end_layout
 
 \begin_layout Standard
@@ -8905,11 +8900,11 @@ sudo pacman -Syyuu
 \end_layout
 
 \begin_layout Section
-More information
+Дополнительная информация
 \end_layout
 
 \begin_layout Standard
-Remember - there is plenty of information on the wiki 
+Запомните, справочная информация в большом объеме доступна на вики 
 \begin_inset Flex URL
 status collapsed
 
@@ -8920,7 +8915,7 @@ http://wiki.manjaro.org/
 
 \end_inset
 
- and discussion forum 
+ а обсудить можно на форуме
 \begin_inset Flex URL
 status collapsed
 
