@@ -7649,7 +7649,7 @@ Printer Settings
 \end_layout
 
 \begin_layout Section
-Updating software
+Обновление программного обеспечения
 \begin_inset Index idx
 status open
 
@@ -7679,10 +7679,10 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-After logging in you may notice a couple of pop-ups informing you of software
- updates.
- This is great! It means your internet connection is working correctly,
- and that there is new software ready and waiting for you!
+После авторизации в систему вполне возможно, Вы получите уведомление о том,
+ что требуется установить обновления.
+ Это отлично! Это значит, что интернет-соединение работает корректно и обновлени
+я готовы для скачивания!
 \end_layout
 
 \begin_layout Subsection
@@ -8349,7 +8349,7 @@ The new software is available in the application menu ready for you to use.
 \end_layout
 
 \begin_layout Section
-Using Pacman
+Использование Pacman
 \begin_inset Index idx
 status open
 
@@ -8379,30 +8379,30 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-Pacman is the Arch Linux 
+Pacman это 
 \series bold
-pac
+пак
 \series default
-kage 
+етный 
 \series bold
-man
+мен
 \series default
-ager.
- This underpins Pamac and Octopi but doesn't have a graphical interface.
- Instead, it is used by typing commands on the terminal.
- The commands allow you to install, upgrade, configure, and remove software.
+еджер Arch Linux.
+ В отличии от Pamac и Octopi, не имеет графического интерфейса.
+ Все работы выполняются командами в терминале.
+ Команды позволяют установить, обновить, сконфигурировать и удалить программное
+ обеспечение.
 \end_layout
 
 \begin_layout Subsection
-Synchronising with the Manjaro repositories
+Синхронизация данных с репозиториями Manjaro
 \end_layout
 
 \begin_layout Standard
-As new packages are added to the repositories you will need to regularly
- synchronise the package lists.
- This is normally taken care of automatically on a regular basis by the
- software managers, but to perform this manually type the following into
- the terminal:
+Для того, чтобы иметь актуальные данные о версиях пакетов и ПО в репозитариях,
+ требуется регулярно синхронизировать список пакетов.
+ Обычно это происходит автоматически и регулярно с помощью менеджеров ПО,
+ но можно запустить и вручную, используя нижеприведенную команду в терминале:
 \end_layout
 
 \begin_layout Quote
@@ -8412,9 +8412,8 @@ sudo pacman -Sy
 \end_layout
 
 \begin_layout Standard
-This will only download the package lists if there has been a change.
- Occasionally you may want to force the package lists to be downloaded.
- To do this, type:
+Эта команда скачает список пакетов, которые были изменены.
+ Но в случае надобности получения полного списка, выполните команду:
 \end_layout
 
 \begin_layout Quote
@@ -8428,7 +8427,7 @@ sudo pacman -Syy
 \end_layout
 
 \begin_layout Standard
-Pacman will allow you to perform an update of software already installed:
+Pacman позволяет обновлять установленное ПО
 \end_layout
 
 \begin_layout Quote
@@ -8438,8 +8437,7 @@ sudo pacman -Su
 \end_layout
 
 \begin_layout Standard
-It's a good idea to check whether the package lists are up-to-date at the
- same time:
+Так же будет неоплохо обновить список пакетов перед обновлением:
 \end_layout
 
 \begin_layout Quote
@@ -8449,7 +8447,7 @@ sudo pacman -Syu
 \end_layout
 
 \begin_layout Standard
-You can also force a package list synchronisation before performing an update:
+Так же, можно синхронизировать полностью список ПО репозитариев:
 \begin_inset Float marginfigure
 wide false
 sideways false
@@ -8497,8 +8495,8 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Standard
-Finding a package by name is really straightforward.
- For example, to search for a text editor called Leafpad:
+Поиск пакета по имени очень простой.
+ К примеру, чтобы найти текстовый редактор Leafpad, выполните команду:
 \end_layout
 
 \begin_layout Quote
@@ -8512,8 +8510,8 @@ sudo pacman -Ss leafpad
 \end_layout
 
 \begin_layout Standard
-Installing a package is equally straightforward.
- For example, to install Leafpad:
+Установка пакетов не менее простая.
+ На примере установки Leafpad, это выглядит так:
 \begin_inset Flex Marginnote
 status collapsed
 
@@ -8538,9 +8536,9 @@ sudo pacman -S leafpad
 \end_layout
 
 \begin_layout Standard
-To remove a software package you need to know its name, but the command
- is straightforward.
- To remove Leafpad:
+Для удаления установленного пакета вам потребуется знать его название, команда
+ проста.
+ Чтобы удалить Leafpad:
 \end_layout
 
 \begin_layout Quote
@@ -8550,16 +8548,8 @@ sudo pacman -R leafpad
 \end_layout
 
 \begin_layout Standard
-It's also possible to remove a package and any dependencies it required
- when it was installed.
- Assuming those other packages are not being used by another piece of software,
- they will become 
-\series bold
-orphan
-\series default
- packages.
- These serve no function other than taking up space! To remove a software
- package with its dependencies:
+Для удаления пакета и всех установленных по зависимости, при учете, что
+ дополнительное ПО не используется более ничем, выполните команду:
 \end_layout
 
 \begin_layout Quote
@@ -8569,11 +8559,10 @@ sudo pacman -Rs leafpad
 \end_layout
 
 \begin_layout Standard
-A package may also create configuration files.
- Normally these are left in place so your configuration is not lost, and
- can be reused if you install the package again.
- However, if you want to remove these configuration files too, the command
- is:
+Установленный пакет может содеражать конфигурационные файлы.
+ Обычно, при удалении пакета, они остаются там, куда были скопированы при
+ установке и могут быть использованы повторно при переустановке пакета.
+ Но при желании, их так же можно удалить:
 \end_layout
 
 \begin_layout Quote
@@ -8599,7 +8588,7 @@ Be warned, though: this is an advanced command!
 \end_layout
 
 \begin_layout Subsection
-Other pacman commands
+Другие параметры pacman
 \end_layout
 
 \begin_layout Standard
@@ -8635,7 +8624,7 @@ man pacman
 \end_layout
 
 \begin_layout Standard
-To exit, press 
+Для выхода нажмите 
 \family typewriter
 \series bold
 q
@@ -8744,7 +8733,8 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Standard
-If you would like more control over which mirrors to use, run the command:
+Если вам требуется установить более полный контроль над тем, какими зеркалами
+ пользоваться, выполните команду:
 \begin_inset Float marginfigure
 wide false
 sideways false
@@ -8784,16 +8774,16 @@ sudo pacman-mirrors -i
 \end_layout
 
 \begin_layout Standard
-This will allow you to select which mirror, or mirrors, to try when checking
- for software updates and downloading new packages.
- It's normally best to choose mirrors that are geographically close to you,
- so if you're in Canada then Canadian and US servers are generally a good
- bet.
- Of course, you're free to choose whichever you want!
+Эта команда проведет тестирование доступных зеркал и выведет окно выбора
+ приоритетного зеркала.
+ Обычно, используют тот сервер, который географически расположен ближе к
+ вашему компьютеру.
+ К примеру, для пользователя из западной части России наиболее близким географич
+ески может оказаться зеркало Яндекса, дата-центр которого расположен в Москве.
 \end_layout
 
 \begin_layout Standard
-To reset back to an automatic choice, run this command:
+Для сброса пользовательских настроек выполните команду:
 \end_layout
 
 \begin_layout Quote
@@ -8803,11 +8793,11 @@ sudo pacman-mirrors -g -c all
 \end_layout
 
 \begin_layout Standard
-Remember to force a download of the package lists to use the new mirrors!
+Не забывайте скачивать список пакетов для использования новых зеркал!
 \end_layout
 
 \begin_layout Subsection
-Switching branches
+Изменение используемой ветки разработки
 \begin_inset Index idx
 status open
 
@@ -8831,10 +8821,11 @@ branches
 \end_layout
 
 \begin_layout Standard
-When you install Manjaro you will be using the stable branch.
- This set of packages has the most testing and so is the best for most users.
- However, you may want to help test packages before they move to the stable
- repository:
+Когда вы установите Manjaro, то будете использовать стабильную ветку.
+ В ней содержатся пакеты оттестированных версий и подходящих для всех.
+ Но вы можете попробовать себя в качестве тестровщика или при желании использова
+ть самые новые версии ПО.
+ Для этого следует подключить репозитории с тестируемым ПО:
 \end_layout
 
 \begin_layout Quote
@@ -8844,18 +8835,17 @@ sudo pacman-mirrors -g -b testing
 \end_layout
 
 \begin_layout Standard
-The testing repository has packages that have been checked by the Manjaro
- development team to make sure they work correctly.
- However, the amount of testing done is much smaller than for the stable
- branch - but this is how they get tested!
+Тестовый репозиторий содержит пакеты, которые уже были протестированы командой
+ разработчиков Manjaro на корректную работу.
+ Т.е их просто осталось немного оттестировать, чтобы присвоить статус стабильных
+ и переместить в соответствующую ветку.
 \end_layout
 
 \begin_layout Standard
-If you want to live on the bleeding edge, you can switch to the unstable
- branch.
- This is normally used by the Manjaro developers.
- Packages from the unstable branch can cause problems, so this is not something
- to do lightly:
+Если вы хотите быть на передовой в разработке, то самое время переключиться
+ на нестабильную ветку.
+ Обычно ее используют разработчики Manjaro.
+ ПО из нестабильной ветке имеют проблемы различной степени сложности:
 \end_layout
 
 \begin_layout Quote
@@ -8865,8 +8855,7 @@ sudo pacman-mirrors -g -b unstable
 \end_layout
 
 \begin_layout Standard
-After switching branches you will need to force an update of the package
- lists:
+После смены используемой ветки ПО запустите обновление списка пакетов:
 \end_layout
 
 \begin_layout Quote
@@ -8876,8 +8865,7 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Standard
-If you switch away from the stable branch, but want to move back, it's actually
- pretty easy:
+Для возврата на стабильную ветку, выполните команду:
 \end_layout
 
 \begin_layout Quote
